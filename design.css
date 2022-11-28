@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #000;
+}
+body{
+    background: rgb(231, 231, 231);
+    background-size: 100% 100vh;
+}
+h1{
+    font-style: verdana  serif  ;
+}
+nav{
+    height: 45px;
+    background: #fff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466);
+    display: flex;
+}
+a{
+    margin: auto;
+    border: 20px;
+    border-radius: 10px;
+    box-shadow: 20px; 
+    text-decoration: none;
+    font-size: 18px;
+    transition: all .25s;
+    cursor: pointer;
+}
+p{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466);
+}
+a:hover{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466);
+    font-size: 20px;
+}
+span{
+    display: block;
+    height: 15vh;
+}
