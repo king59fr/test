@@ -4,27 +4,38 @@
     color: #000;
 }
 body{
-    background: rgb(231, 231, 231);
-    background-size: 100% 100vh;
+   background:linear-gradient(90deg,rgb(136, 136, 199), rgb(12, 8, 8));
+   width: 100%;
+   height: 100vh;
+    
 }
 h1{
-    font-style: verdana  serif  ;
+    font-style: verdana  serif;
+    background-color: rgb(155, 147, 147);
+    margin: 1px;
+    background:linear-gradient(90deg,rgb(136, 136, 199), rgb(12, 8, 8));
+    border-radius: 5px;
+    
 }
 nav{
-    height: 45px;
-    background: #fff;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466);
+    height: 40px;
+    background: rgba(184, 172, 172, 0.267);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.466);
     display: flex;
+    background: linear-gradient(90deg,rgba(0, 60, 255, 0), rgba(0, 119, 255, 0));
+    border-radius: 11vh;
+    
 }
 a{
     margin: auto;
-    border: 20px;
+    border: 10vh;
     border-radius: 10px;
     box-shadow: 20px; 
     text-decoration: none;
     font-size: 18px;
     transition: all .25s;
     cursor: pointer;
+    padding: 5px 5px;
 }
 p{
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466);
@@ -36,4 +47,14 @@ a:hover{
 span{
     display: block;
     height: 15vh;
+}
+.lol{}
+
+
+
+h3{
+
+
+    color:rgb(243, 243, 243);
+
 }
